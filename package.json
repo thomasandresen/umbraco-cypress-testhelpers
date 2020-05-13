@@ -17,7 +17,8 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
 
-    "postinstall": "cross-env-shell node postinstall.js $INIT_CWD"
+    "postinstall": "node postinstall.js",
+    "testme": "cross-env-shell \"echo $INIT_CWD\""
   },
   "files": [
     "lib",
